@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head Section -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Case</title>
+</head>
+
+<!-- Body Section -->
+<body style="text-align: center;">
+
+    <!-- Program heading -->
+    <h1 style="Color:purple;">Check what day is today</h1>
+
+    <!-- Start javascript code -->
+    <script type="text/javascript">
+        
+        let day_num= 1; //Variable decalaration and initialization using let keyword.
+
+        switch(day_num) //Switch case start, this statement use for checking a case i.e. case number match or not.
+        {
+            case 1: //It's use for match the passing number in switch.
+                document.write("Today is Sunday"); //It's use for printing the result on browser window.
+                break; //break is a one type of jumping statement and it works for stoping the flow of switch case or in between program.
+            case 2:
+                document.write("Today is Monday");
+                break;
+            case 3:
+                document.write("Today is Tuesday");
+                break;
+            case 4:
+                document.write("Today is Wednesday");
+                break;
+            case 5:
+                document.write("Today is Thursday");
+                break;
+            case 6:
+                document.write("Today is Friday");
+                break;
+            case 7:
+                document.write("Today is Saturday");
+                break;
+            default: //It's run only when any case does not match.
+                document.write("Opps!, Number don't match with any case.");
+                break;
+        }
+    </script>
+    <!-- End of Javascript code -->
+
+</body>
+</html>
+
+
