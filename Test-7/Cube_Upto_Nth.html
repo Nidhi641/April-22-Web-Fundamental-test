@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cube...😇</title>
+</head>
+<body>
+    <h1 style="color: purple ;">Here, you can find n  terms of odd natural number and their sum...😇</h1>
+    <p id="series"></p>
+    <button  onclick="document.getElementById('series').innerHTML = Odd(c);" style="padding: 20px; border-radius:50%; background-color:green; color: red; font-size: 40px;">Click Here</button>
+    <script>
+        let c = Number(prompt("Enter No.🤔"));
+        let Result = 0;
+        function  Odd(n1){
+            document.write("<h2>Cube upto nth terms...🤓</h1>")
+            for(i=1; i<=n1; i++){
+                Result = i*i*i;
+                document.write(`${i}<sup>3</sup> =  ${i}x${i}x${i} = ${Result}<br>`);
+            }
+            
+        }
+    </script>
+</body>
+</html>
