@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div>
+        <ol id="list"></ol>
+    </div>
+    <script>
+        let city = ['Delhi', 'Mumbai', 'Jaipur','Kolkata','Indore' ];
+        var List = document.getElementById('list');
+        
+        //Method:-1   Using for/of loop 
+        for(let val1 of city){
+         var myList1 = document.createElement("li");
+         myList1.innerText = val1;
+         List.append(myList1);
+        }
+
+        //Method:-2   Using forEach Method 
+        // city.forEach((val2) => {
+        //  var myList2 = document.createElement("li");
+        //  myList2.innerText = val2;
+        //  List.append(myList2);
+        // })
+
+        //Method:-3   Using map method 
+        // city.map(function(val3){
+        //  var myList3 = document.createElement("li");
+        //  myList3.innerText = val3;
+        //  return List.append(myList3);
+        // })
+
+     </script>
+</body>
+</html>
