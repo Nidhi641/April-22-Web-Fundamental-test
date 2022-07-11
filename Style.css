@@ -1,0 +1,422 @@
+.container{
+    width: 100%;
+}
+.navbar{
+    position: fixed;
+    top:0%;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    box-shadow: 2px 2px gray;
+    background-color: powderblue;
+}
+.navbar .personal{
+    display: flex;
+}
+.navbar .personal desc{
+    font-size: 25px;
+}
+.navbar .list{
+    padding-left: 10px;
+    padding-top: 28px;
+}
+.navbar .list ul{
+    list-style-type: none;
+}
+li{
+    float:left;
+}
+li a{
+    padding: 25px;
+    text-decoration: none;
+    color:black;
+    motion: auto;
+    font-size: 15px;
+}
+.home{
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    background-color:  lightgoldenrodyellow;
+    height: 400px;
+    margin-top:4% ;
+}
+.home .desc{
+    padding: 20%;
+}
+.home .desc span{
+    font-size: 30px;
+    font-weight: 900;
+    color: red;;
+}
+.home .desc span:hover{
+    font-size: 30px;
+    font-weight: 900;
+    color: green;
+}
+.home .desc button{
+    padding:12px;
+    background-image: linear-gradient(90deg,rgb(123, 0, 255), rgb(195, 0, 255),rgb(255, 0, 247));
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    border-style: ridge;
+}
+.home .image img{
+    width:60%;
+    height: 70%;
+    margin-top: 24px;
+    margin-left: 60px;
+    padding-left: 130px;
+}
+.about .first{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    background-color:yellow;
+    width:100%;
+    height: 352px;
+}
+.about .first .image img{
+    width: 60%;
+    height: 70%;
+    margin-top: 0px;
+    margin-left: 50px;
+}
+.about .first .desc{
+    padding-top: 50px;
+    padding-left: 180px;
+    
+}
+.about .first .desc button{
+    padding:12px;
+    background-image: linear-gradient(90deg,rgb(123, 0, 255), rgb(195, 0, 255),rgb(255, 0, 247));
+    color:white;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    border-style: ridge;
+}
+.about .skills{
+    
+    background-color:yellowgreen;
+    width:100%;
+    height: 250px;
+    padding-top: 70px;
+    text-align: center;
+}
+.about .skills .p-skills {
+    margin-top: -50px;
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+}
+.about .skills .p-skills:hover {
+    margin-top: -50px;
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+    color: darkmagenta;
+}
+.about .skills .grid-skills{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    column-gap: 30px;
+    font-size: 25px;
+}
+.second{
+    text-align: center;
+    padding-top: 60px;
+    background-color: white;
+    width:100%;
+    height: 100px;
+}
+.about .second span{
+    font-size: 40px;
+    font-weight: 900;
+    color: black;
+}
+.about .second span:hover{
+    font-size: 40px;
+    font-weight: 900;
+    color: red
+}
+.about #personal{
+    font-size: 40px;
+    font-weight: 700;
+    color: green;
+    cursor: pointer;
+}
+.about  #personal:hover{
+    font-size: 40px;
+    font-weight: 700;
+    color: blue;
+    cursor: pointer;
+}
+.about span{
+    font-size: 30px;
+    font-weight: 700;
+    color: purple;
+    cursor: pointer;
+}
+.about span:hover{
+    font-size: 30px;
+    font-weight: 700;
+    color: goldenrod;
+    cursor: pointer;
+}
+.about .third{
+    display:grid;
+    grid-template-columns: repeat(3,33.33%);
+    text-align: center;
+    padding-top: 60px;
+    background-color: white;
+    width:100%;
+    height: 100px;
+}
+.about img{
+    width: 40px;
+    height: 40px;
+}
+.about .forth{
+    display:grid;
+    grid-template-columns: repeat(3,33.33%);
+    text-align: center;
+    padding-top: 60px;
+    background-color:white;
+    width:100%;
+    height: 200px;
+}
+.posts{
+    display: grid;
+    grid-template-columns: repeat(6,16.66%);
+    background-color: gray;
+    padding-top: 80px;
+    padding-bottom: 70px;
+    width: 100%;
+}
+.posts div{
+    text-align: center;
+    color: white;
+}
+.posts span{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.posts a{
+    text-decoration: none;
+    color:blue;
+    font-weight: bold;
+    
+}
+.latest-posts{
+    text-align: center;
+    padding-top: 50px;
+}
+.latest-posts .head #heading{
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+}
+.latest-posts .head #heading:hover{
+    font-size: 40px;
+    font-weight: 700;
+    color: mediumvioletred;
+}
+.latest-posts .desc-1{
+    display: grid;
+    grid-template-columns: repeat(3,33.33%);
+    padding-top: 60px;
+}
+.latest-posts .desc-2{
+    display: grid;
+    grid-template-columns: repeat(3,33.33%);
+    padding-top: 60px; 
+}
+.latest-posts .desc-3{
+    display: grid;
+    grid-template-columns: repeat(3,33.33%);
+    padding-top: 60px;
+}
+.latest-posts .desc-4{
+    display: grid;
+    grid-template-columns: repeat(3,33.33%);
+    padding-top: 60px; 
+}
+.latest-posts .desc-5{
+    display: grid;
+    grid-template-columns: repeat(3,33.33%);
+    padding-top: 60px;
+}
+.latest-posts .desc-6{
+    display: grid;
+    grid-template-columns: repeat(3,33.33%);
+    padding-top: 60px; 
+}
+.latest-posts .desc-7{
+    display: grid;
+    grid-template-columns: repeat(3,33.33%);
+    padding-top: 60px; 
+}
+.latest-posts .desc-8{
+    display: grid;
+    grid-template-columns: repeat(3,33.33%);
+    padding-top: 60px;
+}
+.latest-posts .desc-9{
+    display: grid;
+    grid-template-columns: repeat(3,33.33%);
+    padding-top: 60px; 
+}
+.latest-posts .desc-10{
+    display: grid;
+    grid-template-columns: repeat(3,33.33%);
+    padding-top: 60px;
+}
+.latest-posts .desc-11{
+    display: grid;
+    grid-template-columns: repeat(3,33.33%);
+    padding-top: 60px; 
+}
+.latest-posts .desc-12{
+    display: grid;
+    grid-template-columns: repeat(3,33.33%);
+    padding-top: 60px;
+}
+.latest-posts .desc-13{
+    display: grid;
+    grid-template-columns: repeat(3,33.33%);
+    padding-top: 60px; 
+}
+.latest-posts .desc-14{
+    display: grid;
+    grid-template-columns: repeat(3,33.33%);
+    padding-top: 60px;
+}
+.latest-posts .desc-15{
+    display: grid;
+    grid-template-columns: repeat(3,33.33%);
+    padding-top: 60px; 
+}
+.latest-posts img{
+    width: 400px;
+    height: 400px;
+}
+.latest-posts span{
+    font-weight: bolder;
+    color: darkgrey;
+}
+.contact{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color:skyblue;
+    width:100%;
+    height: 100px;
+    margin-top: 60px;
+}
+.contact span{
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+}
+.contact p{
+    color: white;
+    font-weight: 700;
+}
+.thanks{
+    padding:60px;
+    text-align: center;
+    color: red;
+    font-weight: 900;
+    font-size: 30px;
+    background-color: rgb(63, 63, 132);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    animation: mover 6s infinite linear;
+}
+@keyframes mover {
+    0%{
+        text-shadow: 2px 5px orange;
+        transform: :translate3d(70px);
+    }
+    25%{
+        text-shadow: 2px 5px white;
+        transform: :translate3d(70px);
+    }
+    50%{
+        text-shadow: 2px 5px blue;
+        transform: :translate3d(70px);
+    }
+    75%{
+        text-shadow: 2px 5px green;
+        transform: :translate3d(70px);
+    }
+}
+/* Personal Details */
+.latest-posts th{
+    font-size: 20px;
+}
+.latest-posts #inner-table th{
+    font-size: 15px;
+}
+.latest-posts #outer-table table{
+    text-align: left;
+    padding: 20px;
+}
+
+
+/* Media Queries */
+@media (max-width:440px)
+{
+
+    .home{
+        display: block;
+    }
+
+    .latest-posts .desc-1{
+        display: block;
+    }
+    .latest-posts .desc-2{
+        display: block;
+    }
+    .latest-posts .desc-3{
+        display: block;
+    }
+    .latest-posts .desc-4{
+        display: block;
+    }
+    .latest-posts .desc-5{
+        display: block;
+    }
+    .latest-posts .desc-6{
+        display: block;
+    }
+    .latest-posts .desc-7{
+        display: block;
+    }
+    .latest-posts .desc-8{
+        display: block;
+    }
+    .latest-posts .desc-9{
+        display: block;
+    }
+    .latest-posts .desc-10{
+        display: block;
+    }
+    .latest-posts .desc-11{
+        display: block;
+    }
+    .latest-posts .desc-12{
+        display: block;
+    }
+    .latest-posts .desc-13{
+        display: block;
+    }
+    .latest-posts .desc-14{
+        display: block;
+    }
+    .latest-posts .desc-15{
+        display: block;
+    }
+}
